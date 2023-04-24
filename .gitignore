@@ -1,1 +1,5 @@
+crawlings/imdb_crawl0_10000.csv
 movies_initial.csv
+sentiment_analysis/IMDB Dataset.csv
+sentiment_analysis/models/DistilBERTSentimentAnalysis2Epochs.h5
+sentiment_analysis/preprocessed/train.csv
