@@ -39,3 +39,5 @@ Im Teil Training und Evaluation werden verschiedene Transformer und Techniken ve
 Die angelernten Modelle sind im Ordner models abgelegt. Im Ordner preprocessed sind die vorverarbeiteten Daten bereits in train, validate und test split abgelegt. Diese sind der Output des Preprocessing-Notebooks.
 
 <img src="plots/sentiment_analysis.svg">
+
+Alle Jupyter Notebooks wurden ebenfalls in den entsprechenden Ordnern als HTML-Seite abgelegt.
