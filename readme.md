@@ -41,3 +41,4 @@ Die angelernten Modelle sind im Ordner models abgelegt. Im Ordner preprocessed s
 <img src="plots/sentiment_analysis.svg">
 
 Alle Jupyter Notebooks wurden ebenfalls in den entsprechenden Ordnern als HTML-Seite abgelegt.
+Quellen sind unter cite.txt zu finden.
