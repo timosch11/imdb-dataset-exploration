@@ -1,0 +1,10 @@
+NumPy: Harris, C.R. et al., 2020. Array programming with NumPy. Nature, 585, pp.357–362.
+NLTK: Bird, S., Klein, E. & Loper, E., 2009. Natural language processing with Python: analyzing text with the natural language toolkit, " O&#x27;Reilly Media, Inc."
+Pandas: McKinney, W. & others, 2010. Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference. pp. 51–56.
+Sklearn: Pedregosa, F. et al., 2011. Scikit-learn: Machine learning in Python. Journal of machine learning research, 12(Oct), pp.2825–2830.
+SciPy: Virtanen, P. et al., 2020. SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17, pp.261–272.
+Plotly: Inc., P.T., 2015. Collaborative data science. Available at: https://plot.ly.
+Keras: Chollet, F. & others, 2015. Keras. Available at: https://github.com/fchollet/keras.
+Seaborn: Waskom, M. et al., 2017. mwaskom/seaborn: v0.8.1 (September 2017), Zenodo. Available at: https://doi.org/10.5281/zenodo.883859.
+Pytorch: Paszke, A. et al., 2019. PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32. Curran Associates, Inc., pp. 8024–8035. Available at: http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf.
+Wordcloud: Oesper, L. et al., 2011. WordCloud: a Cytoscape plugin to create a visual semantic summary of networks. Source code for biology and medicine, 6(1), p.7.
