@@ -1,3 +1,11 @@
+
+
+""" 
+
+This script is improved by imdb_library_crawl_multithread.py
+
+"""
+
 import pandas as pd 
 from imdb import Cinemagoer
 import json

@@ -6,10 +6,13 @@ import concurrent.futures
 import time
 from ratelimit import limits, sleep_and_retry
 
+
+_from = 40001  #IMDBID to start with
+_to = 40050   #IMDBID to end with
 warnings.filterwarnings('ignore')
 ia = Cinemagoer()
 
-numbers = [str(i).zfill(7) for i in range(40001, 50000)]
+numbers = [str(i).zfill(7) for i in range(_from, _to)]
 results = []
 counter = 0
 @sleep_and_retry
@@ -55,11 +58,11 @@ with concurrent.futures.ThreadPoolExecutor() as executor:
             print(f"{result['original title']} crawled")
             counter += 1
         if counter % 1000 == 0:
-            print("Sleep 60 sec to avoid getting banned :)")
+            print("Sleep 60 sec to avoid getting banned")
 
 df = pd.DataFrame(results)
 df.set_index("imdbID", inplace=True)
 
 
-df.to_csv("crawlings/imdb_crawl40001_50000.csv")
+df.to_csv(f"crawling_scripts/crawlings/imdb_crawl{_from}_{_to}.csv")
 

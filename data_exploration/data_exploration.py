@@ -8,7 +8,7 @@ import plotly.express as px
 app = dash.Dash(__name__)
 server = app.server
 
-df = pd.read_csv('movies_initial.csv')
+df = pd.read_csv('data_exploration/movies_initial.csv')
 df = df[df["imdbVotes"] >= 1000]
 
 genres = df['genre'].value_counts().index.tolist()
